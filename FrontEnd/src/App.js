@@ -1,7 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+
+  function handleSubmit(){
+    async function handleSubmit(e){
+      e.preventDefault();
+    }
+  }
+
   return (
     <div className="App">
       <aside className="sidemenu">
@@ -34,11 +42,12 @@ function App() {
             </div>
         </div>
           <div className="chat-input">
-            <textarea
-              rows="1"/*te lasa sa scrii doar pe un rand*/
+            <form onSubmit={handleSubmit}>
+            <input rows="1"/*te lasa sa scrii doar pe un rand*/
               className="chat-input-textarea" 
               placeholder="Type your message here">
-            </textarea>
+            </input>
+            </form>
           </div>
       </section>
     </div>
