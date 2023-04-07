@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lemonmilk');
+
 .App {
     text-align: center;
     display: flex;
@@ -10,7 +13,7 @@
   .sidemenu{/** aici avem partea din stanga, meniul */
     width:240px;
     padding:10px;
-    background-color: #202123;
+    background-color: #65879e;
   }
   
   nav{
@@ -22,6 +25,7 @@
     border: 1px solid white;
     border-radius: 5px;
     text-align: center;
+    background-color: #5e849e;
   }
   
   .side-menu-button:hover{/*butonul de New Chat*/
@@ -41,6 +45,19 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    background-image: url(./blurat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  .main h1{
+    padding-top: 1rem;
+    font-family: 'Lemon/Milk', sans-serif;
+  }
+
+  .bucatar{
+    background-image: url(./bucatar.png);
   }
 
   .info{
@@ -90,13 +107,17 @@
     overflow: scroll;
     width: 100%;
     padding: 0;
-
+    background-color: #BBD5EA;
+    opacity: 80%;
   }
 
   .feed li{
     display:flex;
-    background-color: #444654;
     width:100%;
     padding: 20px;
     margin:20px 0;
+    font-size: 25px;
+    text-align: center;
+    color:black;
+    font-family: 'Poppins';
   }

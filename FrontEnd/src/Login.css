@@ -1,0 +1,14 @@
+body{
+    background-image: url(./first.png);
+    background-size: cover;
+}
+
+.card-body{
+    background-color: #a6c2db;
+    background-size: cover;
+    /* border-radius: 1rem; */
+}
+
+.card{
+    border-radius: 1rem;
+}

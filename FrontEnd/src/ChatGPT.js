@@ -38,14 +38,12 @@ export function ChatGPT(){
           <span>+</span>
           New Chat
         </div>
-        <nav>
-          <p>Made by Dribble!</p>
-        </nav>
       </aside>
 
       <section className="main">
+        <div className="bucatar">
         <h1>Dribble</h1>
-
+        </div>
         <ul className="feed">
         <li>{message}</li>
         </ul>
@@ -53,7 +51,7 @@ export function ChatGPT(){
           <div className="input-container">
             <input value={value} onChange={(e) => setValue(e.target.value)}/>
             <div id="submit" onClick={getMessages}>
-              -
+              ENTER
             </div>
             <p className="info">
               CHAT GPT
