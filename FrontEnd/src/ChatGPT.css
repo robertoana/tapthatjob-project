@@ -55,11 +55,6 @@
     padding-top: 1rem;
     font-family: 'Lemon/Milk', sans-serif;
   }
-
-  .bucatar{
-    background-image: url(./bucatar.png);
-  }
-
   .info{
     color:rgba(225,225,225,0.5);
     font-size: 11px;
@@ -117,7 +112,7 @@
     padding: 20px;
     margin:20px 0;
     font-size: 25px;
-    text-align: center;
+    text-align: justify;
     color:black;
     font-family: 'Poppins';
   }
